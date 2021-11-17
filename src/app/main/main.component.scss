@@ -4,3 +4,12 @@
     height: 100vh;
     justify-content: space-between;
 }
+@media screen and (max-width:768) {
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+}
