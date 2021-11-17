@@ -1,9 +1,63 @@
 .header-container{
-    background-image: url('../../assets/img/header-bg.jpg');
+    background-color: #424242;
+    background-image: url('../../assets/img/header-bg-4.jpeg');
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     flex: 1;
     height: 20vh;
-    opacity: 0.7;
+    display: flex;
+    align-items: flex-end;
+}
+.contact{
+    z-index: 9;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div{
+        color: #f5f5f5b2;    
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .phone{
+            margin-right: 10px;
+        }
+    }
+}
+.name{    
+    color: #f5f5f5;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Shippori Antique', sans-serif !important;
+}
+.blur{
+    background-color: rgb(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.profile-photo{
+    display: flex;
+    border: 2px solid #424242;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    background-image: url('../../assets/img/fahrettin.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-left: 15px;
+    bottom: -30px;
+}
+
+.theme{
+    color: #f5f5f5;
+    z-index: 9;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: x-large;
 }
